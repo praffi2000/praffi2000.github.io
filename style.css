@@ -7,16 +7,14 @@
 body{
   font-family: "Bungee", sans-serif;
   font-size: 18px;
-  text-transform: uppercase;
-  background: red;
+
+  background: white;
   color: #51557D;
   line-height: 1.5;
-  animation-name: color;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
   -webkit-text-size-adjust: 100%;
   margin: 0;
 }
+
 
 a{
   text-decoration: none;
@@ -25,21 +23,22 @@ a{
 
 /* Rules for headings */
 
-h1, h2, h3, h4, h5, h6{
+
+h1, h2, h3, h4, h5, h6,{
   font-family: "Press Start 2P", serif;
-  animation-name: color;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
+
   color: #1D1F50;
   }
 
 h1{
-  text-indent: 50px;
+  ;
   font-weight: 900;
   font-size: 1em;
   margin-top: 1em;
   margin-bottom: 0;
 }
+
+
 
 h2{
   margin-top: 1em;
@@ -92,9 +91,6 @@ header{
 .header-text{
    text-align: left;
    margin-left: 42px;
-   animation-name: color;
-   animation-duration: 1s;
-   animation-iteration-count: infinite;
    color: #1D1F50;
    padding-bottom: 8px;
    padding-top: 8px;
@@ -118,7 +114,19 @@ header{
   margin: auto;
   padding: 20px 50px 50px 50px;
 
-  background: blue;
+  background: fff555;
+  border-radius: 8px;
+
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.blog-container2{
+  max-width: 700px;
+  margin: auto;
+  padding: 20px 50px 50px 50px;
+
+  background: red;
   border-radius: 8px;
 
   margin-top: 12px;
@@ -127,13 +135,11 @@ header{
 
 
 
+
 /* Images in main content area */
 
 .blog-container img{
   max-width: 700px;
-  animation-name: color;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
   border-radius: 10px;
   margin-bottom: -12px;
   margin-top: 20px;
